@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>World Map Explorer</title>
+</head>
+<body>
+
+    <h1>World Map Explorer</h1>
+    <p>Click on different countries on the map to explore details about them.</p>
+
+    <img src="world_map.jpg" alt="World Map" usemap="#worldmap" width="1000" height="500">
+
+    <map name="worldmap">
+        <area shape="circle" coords="200,200,80" href="https://en.wikipedia.org/wiki/Brazil" alt="Brazil" target="_blank">
+        <area shape="rect" coords="150,80,350,180" href="https://en.wikipedia.org/wiki/United_States" alt="United States" target="_blank">
+        <area shape="poly" coords="680,180,720,160,780,190,750,240,700,230" href="https://en.wikipedia.org/wiki/India" alt="India" target="_blank">
+        <area shape="default" href="https://en.wikipedia.org/wiki/World" alt="World Overview" target="_blank">
+    </map>
+
+</body>
+</html>
